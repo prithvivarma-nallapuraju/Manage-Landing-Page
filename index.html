@@ -7,7 +7,43 @@
     <link rel="stylesheet" href="./CSS/output.css" />
     <title>Document</title>
   </head>
-  <body class="bg-blue-800">
-    <h1>Hello World</h1>
+  <body>
+    <!---------------------------------------------------------------------------------
+                              NavBar section Design
+    ------------------------------------------------------------------------------------->
+
+    <nav class="relative container mx-auto p-6">
+      <!--Flex Container-->
+      <div class="flex items-center jusitfy-between">
+        <!--Logo -->
+        <div class="pt-2">
+          <img src="./img/logo.svg" alt="Logo" />
+        </div>
+        <!--End of logo -->
+
+        <!--Menu Items -->
+        <div class="hidden md:flex mx-auto space-x-6">
+          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+        </div>
+        <!-- End of Menu Items -->
+
+        <!--Button -->
+        <a
+          href="#"
+          class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+          >Get Started</a
+        >
+        <!--End of Button -->
+      </div>
+      <!--End of Flex Contianer-->
+    </nav>
+
+    <!---------------------------------------------------------------------------------
+                              End of NavBar section
+    ------------------------------------------------------------------------------------->
   </body>
 </html>
